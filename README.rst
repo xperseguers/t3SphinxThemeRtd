@@ -33,6 +33,8 @@ Install the Theme Using PIP
 `PIP <https://pip.pypa.io/en/stable/>`__ is the
 `Python <https://www.python.org/>`__ packet manager for
 `PyPi <https://pypi.python.org/pypi>`__.
+'t3SphinxThemeRtd' is provided by the TYPO3 Documentation Team
+and available from PyPi.
 
 Installation with ``pip``::
 
