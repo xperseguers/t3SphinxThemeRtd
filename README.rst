@@ -226,6 +226,11 @@ Set up a development environment
       cd t3SphinxThemeRtd
       grunt
 
+   Or, mabe even better, run Grunt in the background::
+
+      cd t3SphinxThemeRtd
+      grunt &
+
 This default task will do the following **very cool things that make it worth the trouble**.
 
 1. It'll install and update any bower dependencies.
