@@ -41,10 +41,10 @@ Installation with ``pip``::
    # fetch from PyPi and install latest version:
    pip install --upgrade t3SphinxThemeRtd
 
-   # if required on your system, run a superuser:
+   # if required for your system, run a superuser:
    pip install --upgrade t3SphinxThemeRtd
 
-Four your interest: Some quick examples of ``pip`` usage::
+For your interest: Some quick examples of ``pip`` usage::
 
    # find help
    pip install --help
@@ -91,9 +91,11 @@ Set the theme path::
 
    html_theme_path = [t3SphinxThemeRtd.get_html_theme_path()]
 
-Or, if that's better in your case, add the theme path to an existing one::
+Or, if that's better in your case, add the theme path to to the
+list of already defined paths::
 
    html_theme_path = []
+   # ...
    html_theme_path.append(t3SphinxThemeRtd.get_html_theme_path())
 
 
@@ -114,8 +116,8 @@ Special Information for TYPO3 Users
 
 2. Once the "TYPO3 codeblock" is disabled the old `t3sphinx module
    <https://git.typo3.org/Documentation/RestTools.git/tree/HEAD:/ExtendingSphinxForTYPO3/src/t3sphinx>`__
-   IS NOT used any more. So you finally are free from old ballast
-   and get rid of those old and annoying errors. Rendering of Sphinx Json
+   IS NOT used any more. So you finally are being freed from old ballast
+   and some of those old and annoying errors are gone. Rendering of Sphinx Json
    format will just work fine with the new theme.
 
 3. On the other hand: Since the ``t3sphinx module`` isn't loaded any more
