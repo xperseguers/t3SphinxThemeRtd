@@ -34,19 +34,29 @@ Install the Theme Using PIP
 `Python <https://www.python.org/>`__ packet manager for
 `PyPi <https://pypi.python.org/pypi>`__.
 
-Examples of ``pip`` usage::
+Installation with ``pip``::
 
-   # search PyPi, the Python packet index
-   pip search t3SphinxThemeRtd
-   pip search sphinx
+   # fetch from PyPi and install latest version:
+   pip install --upgrade t3SphinxThemeRtd
 
+   # if required on your system, run a superuser:
+   pip install --upgrade t3SphinxThemeRtd
+
+Four your interest: Some quick examples of ``pip`` usage::
+
+   # find help
    pip install --help
-   (sudo) pip install --upgrade t3SphinxThemeRtd
+   pip --help
 
    # install locally for this user only
    pip install --upgrade --user t3SphinxThemeRtd
 
+   # uninstall - no matter if installed by PIP or setup.py:
    pip uninstall t3SphinxThemeRtd
+
+   # search PyPi, the Python packet index
+   pip search t3SphinxThemeRtd
+   pip search sphinx
 
 
 Install directly using 'setup.py'
