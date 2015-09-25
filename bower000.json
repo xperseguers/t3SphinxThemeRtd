@@ -32,6 +32,7 @@
   },
   "dependencies": {
     "font-source-sans-pro-sass": "~2.10.0",
+    "TYPO3.styleguide": "https://github.com/web-vision/TYPO3.styleguide.git",
     "jquery": "1.11.3",
     "jquery-ui-1.11.3": "http://jqueryui.com/resources/download/jquery-ui-1.11.3.zip",
     "1.017R": "https://github.com/adobe-fonts/source-code-pro/archive/1.017R.zip"
