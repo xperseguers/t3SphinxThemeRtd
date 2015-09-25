@@ -333,13 +333,25 @@ html_last_updated_fmt = '%b %d, %Y %H:%M'
 # available in the theme for example as 'theme_show_revision'
 html_theme_options = {}
 
+
+### the following is EXAMPLE DATA:
+
+# Rendering on the server?
+html_theme_options['docstypo3org'] = True
+
 html_theme_options['github_branch'] = ''
 html_theme_options['github_commit_hash'] = 'a2e479886bfa7e866dbb5bfd6aad77355f567db0'
 html_theme_options['github_repository'] = "https://github.com/TYPO3-Documentation/t3SphinxThemeRtd",
 html_theme_options['github_revision_msg'] = '<a href="https://github.com/TYPO3-Documentation/t3SphinxThemeRtd' + '/commit/' +'a2e479886bfa7e866dbb5bfd6aad77355f567db0' + '" target="_blank">' + 'a2e47988' + '</a>'
-html_theme_options['github_sphinx_locale'] = False
+html_theme_options['github_sphinx_locale'] = ''
+html_theme_options['project_contact'] = '#'
+html_theme_options['project_discussions'] = '#'
+html_theme_options['project_home'] = '#'
+html_theme_options['project_issues'] = '#'
+html_theme_options['project_repository'] = '#'
 html_theme_options['show_copyright'] = True
+html_theme_options['show_last_updated'] = True
 html_theme_options['show_revision'] = True
 html_theme_options['show_sourcelink'] = True
 html_theme_options['show_sphinx'] = True
-html_theme_options['use_opensearch'] = 'http://demo_docs.de',
+html_theme_options['use_opensearch'] = 'https://docs.typo3.org/typo3cms/<PROJECTSTART>',
